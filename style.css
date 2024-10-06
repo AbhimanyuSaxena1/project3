@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#main
+{   border-top: 2px double black;
+    display: grid;
+    
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 40% 10% 50%;
+}
+
+#top-left
+{   
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 6vw;
+    /* background-color: aqua; */
+
+}
+#top-left h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7.5vw;
+    font-weight: 450;
+    line-height: 7.5vw;
+}
+#top-center
+{
+    grid-column: 2/3;
+    grid-row-start: 1;
+    grid-row-end : 4 ;
+}
+#top-center h1{
+    rotate: -90deg;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 550;
+    font-size: 2vw;
+    position: absolute;
+    top: 75%;
+    left: 49%;
+}
+#left-center{
+    grid-column: 1/2;
+    grid-row: 2;
+    background-color: red;
+    margin-top: 140px;
+    padding-left: 6vw;
+}
+#colors{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 8vw;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 22px;
+
+}
+#colors h1{
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+#b{
+  margin-left: 10px;
+  margin-right: -5px;
+  color: rgb(136, 78, 78);  
+}
+#left-corner
+{
+    grid-column: 1/2;
+    grid-row: 3;
+    padding: 8.5vw 0 5vw 6.3vw;
+}
+#left-corner h1{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#left-corner p{
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#right
+{ 
+    /* background-color: blue; */
+    grid-column: 3/4;
+    grid-row: 1 / 4;
+}
+#top-right{
+    /* background-color: aqua; */
+    /* height: 210px; */
+    /* grid-column: 3/4; */
+    /* grid-row: 1; */
+    align-content: end;
+    padding-right: 10vw;
+    padding-top: 11vw;
+}
+#content
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#content h1{
+    font-size: 1.7vw;
+    font-family: gilroy;
+    letter-spacing: 1px;
+    font-weight: 550;
+}
+#rating{
+    display: flex;
+    align-items: center;
+    
+}
+#rating h1{
+    font-family: gilroy;
+    font-size: 1.2vw;
+    margin-right: 8px;
+}
+#image img
+{   
+    margin-right: 5vw;
+    height: 40vw;
+    object-fit: cover;
+}
