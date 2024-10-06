@@ -94,7 +94,7 @@ html,body
 
 #right
 { 
-    /* background-color: blue; */
+    
     grid-column: 3/4;
     grid-row: 1 / 4;
 }
@@ -134,4 +134,25 @@ html,body
     margin-right: 5vw;
     height: 40vw;
     object-fit: cover;
+}
+#add
+{
+    position: absolute;
+    top: 40%;
+    left: 87.5%;
+    height: 10vw;
+    width: 10vw;
+    border: 4px double rgb(106, 99, 99);
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#add h1{
+
+    color: white;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 300;
 }
