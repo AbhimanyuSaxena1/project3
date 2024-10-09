@@ -212,15 +212,17 @@ html,body
     grid-column: 1/2;
     grid-row: 1;
     padding: 6vw;
+    width: 100vw;
+    align-items: center;
     /* background-color: aqua; */
 
 }
 #top-left h1
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20vw;
+    font-size: 11vw;
     font-weight: 540;
-    line-height: 20vw;
+    line-height: 11vw;
 }
 #top-center
 {   
